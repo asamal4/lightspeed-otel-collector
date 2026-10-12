@@ -39,7 +39,7 @@ Only use language-tagged blocks for NEW code not yet in the repo.
 ## Git and PR Workflow
 
 ### Commit Messages
-- Start with the Jira ticket reference: `OLS-XXXX description`
+- Start with the Jira ticket reference: `OLS-XXXX: description`
 - Keep the first line under 72 characters
 - Use imperative mood
 
@@ -52,5 +52,5 @@ This repo uses a **fork-based workflow**:
    git push <your-fork-remote> <branch>
    gh pr create --repo openshift/lightspeed-otel-collector --head <your-github-user>:<branch> --base main
    ```
-3. **PR title** must start with the Jira reference: `OLS-XXXX description`
+3. **PR title** must start with the Jira reference: `OLS-XXXX: description`
 4. **Squash commits** before pushing
